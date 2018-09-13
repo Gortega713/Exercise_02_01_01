@@ -28,7 +28,24 @@
     $concerts[] = "Joan Jett";
     echo "<P>The following ",
     // The same as length in JavaScript
-    count($concerts), " concerts are scheduled.</p>"
+    count($concerts), " concerts are scheduled.</p><p>";
+        
+    echo "$concerts[0]<br>";
+    echo "$concerts[1]<br>";
+    echo "$concerts[2]<br>";
+    echo "$concerts[4]<br>";
+    echo "$concerts[5]<br>";
+    echo "$concerts[6]<br>";
+    
+    // print_r() will disable HTML and show off the array
+    echo "<pre>";
+    print_r($concerts);
+    echo "</pre>";
+    
+    // print_r() will disable HTML and show off the array along with its length and data type
+    echo "<pre>";
+    var_dump($concerts);
+    echo "</pre>";
     ?>
     
 
