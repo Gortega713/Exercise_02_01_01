@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+   <!--
+        Exercise 02_01_01
+
+        Author: Gabriel Ortega 
+        Date: 9.13.18
+
+        InterestArray.php
+     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,8 +30,7 @@
     $interestRate6 = .0850;
     $interestRate7 = .0875;
     
-    $ratesArray = array($interestRate1, $interestRate2, $interestRate3, $interestRate4, $interestRate5, $interestRate6, $interestRate7);
-    
+    // Output all variables inside of their own <p> tag and formatted to 4 decimal places
     echo "<p>Interest rate #1: ", number_format($interestRate1, 4), "<br>";
     echo "<p>Interest rate #2: ", number_format($interestRate2, 4), "<br>";
     echo "<p>Interest rate #3: ", number_format($interestRate3, 4), "<br>";
